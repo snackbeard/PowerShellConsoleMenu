@@ -27,9 +27,9 @@ Self explanatory
 
 ![cmd img](3.png)
 
--object = The created object from above
--title = A title
--menuLength = The length of the rows as shown in the first screenshot
+1. -object = The created object from above
+2. -title = A title
+3. -menuLength = The length of the rows as shown in the first screenshot
 
 
 There are two little implementations to 
