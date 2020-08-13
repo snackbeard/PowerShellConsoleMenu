@@ -6,7 +6,7 @@ Simple menu in the console window
 
 Created from a hashtable
 
-![object img](img2.png)
+
 
 "restricted" defines if the value of the attribute can be changed
 This could be used if e.g. the sAMAccountName for an Active Directory user is generated (combination of first and last name) and should
@@ -40,9 +40,3 @@ There are two little implementations to
 	
 I implemented it because there might be a rare case where you actually want to edit a "restricted" attribute without going into the code
 and changing the object
-
-![1 img](img4.png)
-
-![2 img](img5.png)
-
-![3 img](img6.png)
