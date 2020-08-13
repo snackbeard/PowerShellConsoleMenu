@@ -8,10 +8,12 @@ Created from a hashtable
 
 ![object img](2.png)
 
+How to use:
+Copy the function Create-ConsoleMenu from consolemenu.ps1 into your file and read everything below
+
 "restricted" defines if the value of the attribute can be changed
 This could be used if e.g. the sAMAccountName for an Active Directory user is generated (combination of first and last name) and should
 not be set manually
-
 
 "hasChanged"
 If an attribute is edited it is set to true to check the values after exiting the menu. I used it most of the time in combination
@@ -19,8 +21,7 @@ with the "restricted" key
 
 "type"
 string, int, bool
-After inputting a number e.g. '0001234' and the type is set to "int", it will cut the '000' and only '1234' will be left
-Beware
+After inputting a number e.g. '0001234' and the type is set to "int", it will cut the '000' and only '1234' will be left. Beware
 
 "canBeEmpty"
 Self explanatory
