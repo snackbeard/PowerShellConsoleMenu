@@ -9,10 +9,10 @@ Created from a hashtable
 ![object img](img2.png)
 
 
-![cmd img](img3.png)
+![command img](img3.png)
 
-![cmd img](img4.png)
+![override img](img4.png)
 
-![cmd img](img5.png)
+![message img](img5.png)
 
-![cmd img](img6.png)
+![success img](img6.png)
