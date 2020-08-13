@@ -42,6 +42,12 @@ function Create-ConsoleMenu {
     }
     #endregion
 
+    #region setting "hasChanged" back to false"
+    for ($index = 1; $index -le $objectCopy.Length; $index++) {
+        $object."$index".hasChanged = $false
+    }
+    #endregion
+
     #region titleLength
     $titleSize = $maxSize - $title.Length
     if ($titleSize % 2 -eq 1) {
@@ -226,7 +232,7 @@ $obj = @{
         "key" = "firstname"
         "value" = "my first name"
         "restricted" = $true
-        "hasChanged" = $false
+        "hasChanged" = $true
         "type" = "string"
         "canBeEmpty" = $false
     }
@@ -234,7 +240,7 @@ $obj = @{
         "key" = "lastname"
         "value" = "my last name"
         "restricted" = $false
-        "hasChanged" = $false
+        "hasChanged" = $true
         "type" = "string"
         "canBeEmpty" = $false
     }
@@ -242,7 +248,7 @@ $obj = @{
         "key" = "street"
         "value" = "my street"
         "restricted" = $false
-        "hasChanged" = $false
+        "hasChanged" = $true
         "type" = "string"
         "canBeEmpty" = $false
     }
